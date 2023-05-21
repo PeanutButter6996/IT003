@@ -70,3 +70,19 @@
  
 ## 2. Cây đỏ đen ##
 #### a) Thông tin cơ bản ####
+- Là cây nhị phân tìm kiếm (BST) tự cân bằng với mỗi node trong cây có màu đỏ hoặc đen.
+- Những điều chú ý về cây đỏ đen:
+  - Root màu đen.
+  - Null node màu đen.
+  - Cha node đỏ là đen, con node đỏ là đen.
+  - Không có các node liền kề cùng màu.
+  - Mọi đường dẫn từ một node đến bất kì node NULL (thuộc con của nó ) thì đều có cùng số lượng node đen.
+#### b) Vì sao xài cây đỏ đen ####
+- Nếu chỉ xài cây nhị phan tìm kiếm bình thường thì độ phức tạp là $O(n)$.
+- Nếu xài cây AVL, thì độ phức tạp sẽ được giảm xuống còn $2O(log_2(n))$.
+
+## TỔNG KẾT ##
+### So sánh cây AVL và cây đỏ đen ### 
+- cây AVL cân bằng hơn cây đỏ đen, nhưng có thể tạo ra nhiều chuyển động quay hơn trong quá trình chèn và xóa. Vì vậy, nếu cần chèn và xóa thường xuyên, thì cây đỏ đen nên được ưu tiên hơn. Và ngược lại nếu hoạt động tìm kiếm diễn ra thường xuyên hơn, thì cây AVL sẽ được ưu tiên hơn cây đỏ đen.
+- Bảng thống kê:
+![image](https://github.com/PeanutButter6996/IT003/assets/109911533/4a446fb1-558a-4320-9faa-6e446a039e71)
