@@ -84,5 +84,5 @@
 ## TỔNG KẾT ##
 ### So sánh cây AVL và cây đỏ đen ### 
 - cây AVL cân bằng hơn cây đỏ đen, nhưng có thể tạo ra nhiều chuyển động quay hơn trong quá trình chèn và xóa. Vì vậy, nếu cần chèn và xóa thường xuyên, thì cây đỏ đen nên được ưu tiên hơn. Và ngược lại nếu hoạt động tìm kiếm diễn ra thường xuyên hơn, thì cây AVL sẽ được ưu tiên hơn cây đỏ đen.
-- Bảng thống kê:
+- Bảng thống kê:</br >
 ![image](https://github.com/PeanutButter6996/IT003/assets/109911533/4a446fb1-558a-4320-9faa-6e446a039e71)
